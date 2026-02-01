@@ -60,10 +60,7 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
             className="mb-6"
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/10 border border-primary/20 text-primary text-sm font-medium">
-              <Sparkles className="w-4 h-4" />
-              AI-Powered Code Repair
-            </span>
+            
           </motion.div>
 
           <motion.h1
