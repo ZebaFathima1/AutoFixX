@@ -69,10 +69,7 @@ const Hero = () => {
             transition={{ duration: 0.6 }}
             className="mb-8"
           >
-            <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-gradient-to-r from-cyan-500/20 to-blue-500/20 border border-cyan-500/30 text-cyan-400 text-sm font-medium hover:border-cyan-500/50 transition-colors">
-              <Sparkles className="w-4 h-4 animate-pulse" />
-              ✨ AI-Powered Code Repair
-            </span>
+            
           </motion.div>
 
           {/* Main heading */}
