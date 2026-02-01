@@ -130,7 +130,7 @@ const FixPage = () => {
             className="text-center mb-12"
           >
             <h1 className="text-4xl md:text-5xl font-bold mb-4">
-              Fix Your <span className="gradient-text">Python Code</span>
+              Fix Your <span className="gradient-text">Code & Errors</span>
             </h1>
             <p className="text-muted-foreground text-lg max-w-2xl mx-auto">
               Describe the bug, paste your code, and let AI fix it for you.
