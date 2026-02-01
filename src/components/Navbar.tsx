@@ -81,7 +81,7 @@ const Navbar = () => {
                     Sign In
                   </Button>
                 </Link>
-                <Link to="/fix">
+                <Link to="/auth">
                   <Button size="sm" className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600">
                     Get Started
                   </Button>
@@ -137,7 +137,7 @@ const Navbar = () => {
                     Sign In
                   </Button>
                 </Link>
-                <Link to="/fix" onClick={() => setMobileMenuOpen(false)}>
+                <Link to="/auth" onClick={() => setMobileMenuOpen(false)}>
                   <Button className="w-full mt-2 bg-gradient-to-r from-cyan-500 to-blue-500">
                     Get Started
                   </Button>

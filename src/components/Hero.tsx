@@ -82,7 +82,7 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.1 }}
           >
             <h1 className="text-6xl md:text-7xl lg:text-8xl font-bold mb-6 tracking-tight leading-tight">
-              Fix Your Code
+              Fix Any Code & Errors
               <br />
               <span className="bg-gradient-to-r from-cyan-400 via-blue-400 to-violet-400 bg-clip-text text-transparent animate-pulse">
                 Instantly
@@ -107,7 +107,7 @@ const Hero = () => {
             transition={{ duration: 0.6, delay: 0.3 }}
             className="flex flex-col sm:flex-row gap-4 justify-center mb-16"
           >
-            <Link to="/fix" className="w-full sm:w-auto">
+            <Link to="/auth" className="w-full sm:w-auto">
               <Button size="lg" className="w-full sm:w-auto bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 group">
                 <Zap className="w-5 h-5 mr-2" />
                 Try AutoFix Now

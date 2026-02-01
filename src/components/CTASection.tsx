@@ -52,7 +52,7 @@ const CTASection = () => {
           <p className="text-muted-foreground text-lg md:text-xl mb-10 max-w-2xl mx-auto leading-relaxed">
             Stop debugging manually. Let AI handle the tedious work so you can focus on building great software.
           </p>
-          <Link to="/fix">
+          <Link to="/auth">
             <Button size="lg" className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 group">
               Start Fixing Code Now
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" />
